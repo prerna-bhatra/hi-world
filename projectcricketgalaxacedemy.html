@@ -1,0 +1,278 @@
+<!doctype html>
+<html>
+<head>
+<style>
+body  {
+    background-image: url("s4.png")  ;
+	background-size:cover;
+	background-attachment:fixed;
+	}
+	table,th,td
+{
+border:1px solid red;
+border-collapse:collapse;
+}
+	table  
+{
+width:50%;
+}
+table  th{
+color:white;
+background-color:red;
+}
+table  tr:nth-child(even)
+{
+color:#abcdef;
+background-color:green;
+}
+table  tr:nth-child(odd)
+{
+color:white;
+background-color:black;
+}
+table 
+{
+width:50%;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color:#abcdef;
+    color: black;
+}
+	</style>
+
+</head>
+<body onload="fp()">
+<center><p style="color:white; background-color:green;color:white"><font size="8"> Cricket Galaxy Academy </font></p><center>
+<a href="projectcontact.html"><img src="f1.jpg" align="left" border="5"    width="200" height="200"></img></a>
+<
+<a href="carrerproject.html"><img src="c3.jpg"    align="right" border="5"   width="200" height="120"  ></img></a>
+<center><div  align="center;" style= " width:700px; background-color:rgba(0,0.5,0.6,0.7);">
+<center><img src="galaxyf.jpg" width="20%"  alt="screenshot"></center>
+
+<p style="background-color:green;color:black">
+<font size="6">Established in 1991 by former indian cricketer Rahul Darvid.The coaching center at lovely proffesional univesity  campus was inagurated
+by Mr.Jack  ,Engaland   Test cricketer & coach.The trainees  have benifited immensely through the infrastructural facilities and coaching methods.
+</font></b></p>
+
+<p style="color:white;"><b> <font size="6">Details</font></b><p>
+<table  >
+                         
+						 <tr colspan="2">
+						 <td>club no.</td>
+						 <td>ORD-M-2</TD>
+						 </tr>
+						 <tr colspan="2">
+						 <td>club category:</td>
+						 <td>Ordinary maidan club</TD>
+						 </tr>
+						 <tr colspan="2">
+						 <td>representative</td>
+						 <td>R.M.Savant</TD>
+						 </tr>
+						 <tr colspan="2">
+						 <td>address:</td>
+						 <td>9,'Sumitra ', Pila Nagar ,Suraj Nagar,Bombay41234</TD>
+						 </tr>
+						 
+						 
+						
+						 
+						 </table>
+						  <p style="color:white;"><b><font size="6">Course Details</font></b><p>
+						 
+						 <table >
+						 <tr>
+						 <td>category</td>
+						 <td>timing </td>
+						 <td>age group</td>
+						 <td>course fees</td>
+						 </tr>
+						 <tr>
+						 
+						 <td>week days(tue,wed,fri)</td>
+						 <td>4.00-6.00pm</td>
+						 <td>6-12
+						    years</td>
+							<td>RS.30,000/=</td>
+						 <tr>
+						 <tr>
+						 <td>week end morning</td>
+						 <td>6.00-8.30 am </td>
+						 <td>6-13
+						 years</td>
+						 <td>RS.30,000/=</td>
+						 </tr>
+						 <tr>
+						 <td>week end evening</td>
+						 <td>4.00-6.30 am </td>
+						 <td>11-17
+						 years</td>
+						 <td>RS.30,000/=</td>
+						 </tr>
+						 <tr>
+						 <td>flood light(wed,thu,sat)</td>
+						 <td>5.30-8.30 am </td>
+						 <td>10-21
+						 years</td>
+						 <td>RS.7,000/=</td>
+						 </tr>
+						 
+						 
+						 
+						 
+						 </table>
+						 
+						 
+						 <p><font size="6"><b>apply for  club</b></font></p>
+          
+                    <form action="prerna.php> method="post" onsubmit="return(validate())" >
+					<fieldset>
+					<p style="color:green"><b><font size="4">REGISTRATION FORM:</font></b></p>
+					<p style=";background-color:green;color:white"><b>Please Complete All Sections:<br>
+					                       We will use your information to ensure that you are kept informed about club fixtures and events.<b></p>
+					
+					<p style="color:red"><b>private & confidential - personal</b> </p>
+                <p style="color:white;">  Name: </p><br>
+               <input type="text" name="firstname"  placeholder="firstname" id="1"><br>
+			   <input type="text" name="lastname"  placeholder="lastname" id="2"></br>
+			   <p style="color:white;"><b>Gender</b></p>
+			   <p style="color:white;">Male</p>
+            <input type="radio" value="male" name="gender" >
+			 <p style="color:white;">Female</p>
+           <input type="radio" value="female" name="gender" ><br>
+		   
+		   
+		   
+		   <select  id="6" style="background-color:green;" >
+<p style="color:white;">options: </p><br>
+<option value="-1">Selsect Age</option>
+<option value="6-13" >6-13</option>
+<option value="13-17">13-17</option>
+<option value="17-21">17-21</option>
+<br>
+<br>
+<br>
+</select >
+<p style="color:white;"><b>category</b></p>
+	   <select  id="7"style="background-color:green;">
+<p style="color:white;">options: </p><br>
+<option value="-1">Select Category</option>
+<option value="weekdays" >weekdays</option>
+<option value="weekend morning">weekend morning"</option>
+<option value="weekend evening">weekend evening</option>
+<option value="flood light">flood light</option>
+
+
+
+</select>
+<p style="color:white;"><b>Phone Number:</b></p>
+		   <input type="text"  id="3"><br>
+		   <p style="color:white;"><b>Address:</b></p>
+		   <input type="text" name="address" placeholder="lovely proffesional univesity G.T. road" id="4"></br>
+		   <p  style="color:white;"><b>City:</b></p>
+		   <input id="5"ss type="text" name="city"  placeholder="jaipur"></br>
+		   <p style="color:white;"> Email</p>
+		   <input type="text" name="address"  placeholder="bhatraprerna061@gmail.com" id="2"></br>
+		   
+<input onclick="fr();" type="reset"  value="click to reset" style="background-color:green;border:none;color:white;border-radius:70%;text-align:center;margin:4px 2px;padding:20px"><br><br>
+<input type="submit" value="click to submit" style="background-color:green;border:none;color:white;border-radius:70%;text-align:center;margin:4px 2px;padding:20px"><br><br>
+
+
+		   
+		   </fieldset>
+                    </form>
+<p style="color:white"> Gallery </p>
+<button type="button" onclick="document.getElementById('demo').src='sachin.jpg'" style="background-color:green;border:none;color:white;border-radius:70%;text-align:center;margin:4px 2px;padding:20px">Previous</button>
+<br><br>
+
+<img src="sachin.jpg" id="demo"></img><br><br>
+<button type="button" onclick="document.getElementById('demo').src='sachin2.jpg'" style="background-color:green;border:none;color:white;border-radius:70%;text-align:center;margin:4px 2px;padding:20px">Next</button><br><br>
+<br><br>
+
+                </div>
+</center>
+<script>
+function validate()
+{
+if(document.getElementById("1").value=="")
+{
+alert("please provide your  first name!");
+document.getElementById("1").focus();
+return false;
+}
+if(document.getElementById("11").value=="")
+{
+alert("please provide your  last  name!");
+document.getElementById("11").focus();
+return false;
+}
+if(document.getElementById("6").value=="-1")
+{
+alert("Select Age");
+return false;
+}
+
+if(document.getElementById("7").value=="-1")
+{
+alert("Select Category");
+return false;
+}
+
+
+
+a=document.getElementById("3").value
+if(a==""||a.length!=10||isNaN(a))
+{
+alert("provide valid number");
+document.getElementById("3").focus();
+return false;
+}
+if(document.getElementById("4").value=="")
+{
+alert("please provide your  address!");
+document.getElementById("4").focus();
+return false;
+}
+if(document.getElementById("5").value=="")
+{
+alert("please provide your  city!");
+document.getElementById("5").focus();
+return false;
+}
+x=document.getElementById("2").value;
+var atpos=x.indexOf("@");
+var dotpos=x.indexOf(".");
+var dotposLast=x.lastIndexOf(".");
+if(x==""||atpos<1||dotpos<=atpos+2||dotposLast+2>=x.length)
+{
+alert("provide correct email id");
+document.getElementById("2").focus();
+return false;
+}
+return(true);
+}
+function fp()
+{
+alert(" WebPage Is Loading");
+}
+function fr()
+{
+alert(" your data has been  reset");
+}
+
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+

@@ -1,0 +1,258 @@
+<!doctype html>
+<html>
+<head>
+<style>
+body  {
+    background-image: url("s6.jpg")  ;
+	background-size:cover;
+	background-attachment:fixed;
+	}
+	table,th,td
+{
+border:1px solid red;
+border-collapse:collapse;
+}
+	table  
+{
+width:50%;
+}
+
+table ,tr:nth-child(even)
+{
+color:#abcdef;
+background-color:green;
+}
+table ,tr:nth-child(odd)
+{
+color:white;
+background-color:black;
+}
+tr,td{
+padding:15px;
+}
+input[type=text]
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px ;
+    box-sizing: border-box;
+    border: none;
+    background-color:#abcdef;
+    color: black;
+	}
+	</style>
+
+</head>
+<body onload="fp()">
+
+
+
+<center><p style="color:white; background-color:green;"><font size="8"> Cricket Star  Academy </font></p><center>
+
+<a href="projectcontact.html"><img src="f1.jpg" align="left" border="5"    width="200" height="200"></img></a>
+
+<a href="carrerproject.html"><img src="c3.jpg"    align="right" border="5"   width="200" height="200"  ></img></a>
+<center><div  align="center;" style= " width:700px; background-color:rgba(0,0.5,0.6,0.7);">
+<center><abbr title="WE4 SPORTZ"><img src="galaxyf.jpg" width="20%"  alt="screenshot"></abbr></center>
+
+
+<p style="background-color:green;color:white:">
+<font size="6">Established in 1998 by former indian cricketer Sachin Tendulkar.The coaching center at Delhi University   campus was inagurated
+by Mr.Cymen,Engaland Test cricketer & coach.The trainees  have benifited immensely through the infrastructural facilities and coaching methods.
+</font></b></p>
+
+<p style="color:white;"><b> <font size="6">Details</font></b><p>
+<table  >
+                         
+						 <tr >
+						 <td>Club No.</td>
+						 <td>ORD-M-3</TD>
+						 </tr>
+						 <tr >
+						 <td>club category:</td>
+						 <td>Ordinary maidan club</td>
+						 </tr>
+						 <tr >
+						 <td>Representative</td>
+						 <td>R.K.Bhatra</td>
+						 </tr>
+						 <tr >
+						 <td>Address:</td>
+						 <td>9,'Sushila ', Lal Nagar ,Suraj Nagar,Bombay41567</td>
+						 
+						 </tr>
+						 
+						 
+						
+						 
+						 </table>
+						  <p><b><font size="6">course details</font></b><p>
+						 
+						 <table >
+						 <tr>
+						 <td>Category</td>
+						 <td>Timing </td>
+						 <td>Age Group</td>
+						 <td>Course Fees</td>
+						 </tr>
+						 <tr>
+						 
+						 <td>Week Days(tue,wed,fri)</td>
+						 <td>4.00-6.00pm</td>
+						 <td>6-12
+						    years</td>
+							<td>RS.40,000/-</td>
+						 <tr>
+						 <tr>
+						 <td>Week end Morning</td>
+						 <td>6.00-8.30 am </td>
+						 <td>6-13
+						 years</td>
+						 <td>RS.40,000/-</td>
+						 </tr>
+						 <tr>
+						 <td>Week end Evening</td>
+						 <td>4.00-6.30 am </td>
+						 <td>11-17
+						 years</td>
+						 <td>RS.40,000/-</td>
+						 </tr>
+						 <tr>
+						 <td>flood light(wed,thu,sat)</td>
+						 <td>5.30-8.30 am </td>
+						 <td>10-21
+						 years</td>
+						 <td>RS.9,000/-</td>
+						 </tr>
+						  </table>
+						 
+						 
+						 <p style="color:white;"><font size="6"><b>apply for  club</b></font></p>
+                    <form action="prerna.php" method="post" name="myForm" onsubmit="return(validate())">
+					<fieldset>
+					<p style="color:green"><b><font size="4">REGISTRATION FORM:</font></b></p>
+					<p style="color:white;background-color:green;"><b>please complete all sections:<br>
+					                       we will use your information to ensure that you are kept informed about club fixtures and events.<b></p>
+					
+					<p style="color:red"><b>private & confidential - personal</b> </p>
+                    <p style="color:white;">Name: </p>
+					<br> 
+                    <input type="text" name="firstname"  placeholder="firstname" id="1" ><br>
+			       <input type="text" name="lastname"  placeholder="lastname" id="11"></br>
+			        <p style="color:white;"><b>gender</b></p>
+                   <input type="radio" value="male" name="gender" ><p style="color:white;">male</p><br>
+                   <input type="radio" value="female" name="gender" ><p style="color:white;">female</p><br>
+		   
+		   
+		   
+		   <select id="6" style="background-color:blue;">
+<p ><p style="color:white;">Female</p><br>options: </p><br>
+<option value="-1">Select Age</option>
+<option value="6-13" >6-13</option>
+<option value="13-17">13-17</option>
+<option value="17-21">17-21</option>
+</select>
+<br>
+<br><br>
+<select  id="7" style="background-color:blue;">
+
+<option value=-1>Select Category</option>
+<option value="weekdays" >weekdays</option>
+<option value="weekend morning">weekend morning"</option>
+<option value="weekend evening">weekend evening</option>
+<option value="flood light">flood light</option>
+</select>
+<p style="color:white;"><b>Phone Number:</b></p>
+		   <input type="text" id="3" ><br>
+		   <p style="color:white;"><b>Address:</b></p>
+		   <input type="text" name="address" placeholder="lovely proffesional univesity G.T. Road" id="4" ></br>
+		   <p style="color:white;"><b>City:</b></p>
+		   <input type="text" name="city"  placeholder="jaipur" id="5"></br>
+		   <p style="color:white;"><b>Email</b></p>
+		   <input type="text" name="address"  placeholder="bhatraprerna061@gmail.com" id="2"></br>
+		   
+<input type="reset"  value="Reset" onclick="fr()" style="background-color:blue;color:white;border-radius:70%;text-align:center;margin:4px 2px;padding:20px">
+<input type="submit" value="Submit"  style="background-color:blue;color:white;border-radius:70%;text-align:center;margin:4px 2px;padding:20px"><br>
+<br><br>
+		   
+		   </fieldset>
+                    </form>
+<p style="color:white"> Gallery </p>
+<button type="button" onclick="document.getElementById('demo').src='sachin.jpg'" style="background-color:blue;color:white;border-radius:70%;text-align:center;margin:4px 2px;padding:20px">Prev</button>
+<button type="button" onclick="document.getElementById('demo').src='sachin2.jpg'" style="background-color:blue;color:white;border-radius:70%;text-align:center;margin:4px 2px;padding:20px">Next</button><br><br>
+
+<img src="sachin.jpg" id="demo"></img><br><br><br>
+ </div>
+				
+</center>
+<script>
+function validate()
+{
+if(document.getElementById("1").value=="")
+{
+alert("please provide your  first name!");
+document.getElementById("1").focus();
+return false;
+}
+if(document.getElementById("11").value=="")
+{
+alert("please provide your  last  name!");
+document.getElementById("11").focus();
+return false;
+}
+if(document.getElementById("6").value=="-1")
+{
+alert("Select Age");
+return false;
+}
+
+if(document.getElementById("7").value=="-1")
+{
+alert("Select Category");
+return false;
+}
+a=document.getElementById("3").value
+if(a==""||a.length!=10||isNaN(a))
+{
+alert("provide valid number");
+document.getElementById("3").focus();
+return false;
+}
+if(document.getElementById("4").value=="")
+{
+alert("please provide your  address!");
+document.getElementById("4").focus();
+return false;
+}
+if(document.getElementById("5").value=="")
+{
+alert("please provide your  city!");
+document.getElementById("5").focus();
+return false;
+}
+x=document.getElementById("2").value;
+var atpos=x.indexOf("@");
+var dotpos=x.indexOf(".");
+var dotposLast=x.lastIndexOf(".");
+if(x==""||atpos<1||dotpos<=atpos+2||dotposLast+2>=x.length)
+{
+alert("provide correct email id");
+document.getElementById("2").focus();
+return false;
+}
+return(true);
+}
+function fp()
+{
+alert(" WebPage Is Loading");
+}
+function fr()
+{
+alert(" your data has been  reset");
+}
+
+</script>
+
+
+</body>
+</html>

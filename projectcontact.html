@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+<style>
+body{
+background-image:url("html4.jpg");
+background-size:cover;
+background-attachment:fixed;
+}
+
+.grid-container
+{
+
+margin:500px;
+grid-template-areas:
+'d1 d1 d1 d1 d1 d1'
+}
+
+
+
+
+.grid-container div
+{ 
+text-align:center;
+  padding:90px;
+}
+
+
+</style>
+
+</head>
+<body onload="fp()">
+
+<center><p ><b><font size="10">FEEDBACK</font></b></p></center>
+<center><p ><b><font size="8">Your feedback matters. Write to us if you have any questions, queries or suggestions regarding any page/content published on WE4 SPORTZ.com.</font></b></p></center>
+<center>
+<div class=" grid-container"  style="background-color:rgba(0,1,0.5,0.7);  margin:200px;">
+<div class="item1">
+
+<form  action="prerna.php> method="post" onsubmit="return(validate())">
+<fieldset>
+
+<p  style="color:white;"><b>NAME:</b></p><br>
+<input type="text"  placeholder="prerna bahtra" style="width:100%; background-color:#abcdef;padding: 12px 20px;
+    margin: 8px ; box-sizing: border-box;
+    border: none;" id="1"><br>
+<p  style="color:white;"><b>EMAIL:</b></p><br>
+<input type="text" placeholder="bhatraprerna061@gmail.com"  style="width:100%; background-color:#abcdef;padding: 12px 20px;
+    margin: 8px ; box-sizing: border-box;
+    border: none;" id="2"><br>
+<p  style="color:white;"><b>SUBJECT:</b></p><br>
+<input type="subject"  placeholder="SUBJECT"  style="width:100%; background-color:#abcdef;padding: 12px 20px;
+    margin: 8px ; box-sizing: border-box;
+    border: none;" id="3">
+	<p style="color:white;">
+Upload screenshot of error or issue (optional) (jpg,png,gif)
+</p>
+<input type="file"  style="width:100%; background-color:#abcdef;padding: 12px 20px;
+    margin: 8px ; box-sizing: border-box;
+    border: none;"><br><br>
+	<p style="color:white;"><b>MESSAGE:</b></p><br>
+<textarea rows="5" cols="50" > </textarea><br>
+
+
+<input type="reset"  value="Reset" style="background-color:blue;color:white;border-radius:50%;text-align:center;margin:4px 2px;padding:20px" onclick="fr()"> <br><br>
+<input type="submit"  value="Submit"  style="background-color:blue;color:white;border-radius:70%;text-align:center;margin:4px 2px;padding:20px"> <br><br>
+</fieldset>
+</form>
+<p style="color:white;"><b><font size="10">Office Contact Details</font></b></p>
+<pre font size="6" style="color:white";>Akuate Internet Services Pvt Ltd.
+No. 190-B, 2nd Floor,
+HN Plaza,100 Ft Ring road,
+6th Main, BSK 3rd Stage,
+Bangalore - 560085, INDIA
+Phone: 080-26790623
+</pre>
+<img src="map.png"  height="100px" width="100px" onmouseover="f1(this)" onmouseout="f2(this)"></img>
+</center>
+
+</div>
+<script>
+function f1(x)
+{
+
+x.style.height="500px";
+x.style.width="500px";
+}
+
+function f2(x)
+{
+x.style.height="100px";
+
+x.style.width="100px";
+}
+function fp()
+{
+alert("page is loading")
+}
+
+function validate()
+{
+if(document.getElementById("1").value=="")
+{
+alert("please provide your name!");
+document.getElementById("1").focus();
+return false;
+}
+
+x=document.getElementById("2").value;
+var atpos=x.indexOf("@");
+var dotpos=x.indexOf(".");
+var dotposLast=x.lastIndexOf(".");
+if(x==""||atpos<1||dotpos<=atpos+2||dotposLast+2>=x.length)
+{
+alert("provide correct email id");
+document.getElementById("2").focus();
+return false;
+}
+if(document.getElementById("3").value=="")
+{
+alert("please mention subject!");
+document.getElementById("3").focus();
+return false;
+}
+
+return(true);
+}
+function fr()
+{
+alert("data has been reset");
+}
+</script>
+
+
+</body>
+</html>
+

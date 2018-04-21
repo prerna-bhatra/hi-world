@@ -1,0 +1,261 @@
+<!doctype html>
+<html>
+<head>
+<style>
+body  {
+    background-image: url("s2.jpg")  ;
+	background-size:cover;
+	background-attachment:fixed;
+	}
+	table,th,td
+{
+border:1px solid red;
+border-collapse:collapse;
+}
+	table  
+{
+width:50%;
+}
+table  th{
+color:white;
+background-color:red;
+}
+table  tr:nth-child(even)
+{
+color:#abcdef;
+background-color:green;
+}
+table  tr:nth-child(odd)
+{
+color:white;
+background-color:black;
+}
+table 
+{
+width:50%;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    background-color:#abcdef;
+    color: black;
+}
+	</style>
+
+</head>
+<body onload="fp()">
+<center><p style="color:white;" ><font size="8"> Cricket Flair Club </font></p></center>
+<center><div  align="center;" style= " width:700px; background-color:rgba(0,0.5,0.7,0.6);">
+<center><img src="flair.jpg" width="20%" alt="screenshot"><center>
+
+
+<p style="background-color:green;color:white">
+<font size="6">Established in 2000 by former indian cricketer kapil dev.The coaching center at Delhi  University  campus was inagurated
+by Mr. R Mehta,Indian Test cricketer & coach.The trainees have benifited immensely through the infrastructural facilities and coaching methods.
+</font></b></p>
+
+<p style="color:white;"><b> <font size="6">Details</font></b><p>
+<table  >
+                         
+						 <tr colspan="2">
+						 <td>Club No.</td>
+						 <td>ORD-M-3</TD>
+						 </tr>
+						 <tr colspan="2">
+						 <td>Club Category:</td>
+						 <td>Ordinary Maidan Club</TD>
+						 </tr>
+						 <tr colspan="2">
+						 <td>Representative</td>
+						 <td>P.B.Karan</td>
+						 </tr>
+						 <tr colspan="2">
+						 <td>Address:</td>
+						 <td>9,'Prerna ', Lal nagar ,Chand Bagar,Bombay41454</TD>
+						 </tr>
+						 
+						 
+						
+						 
+						 </table>
+						  <p style="color:white;"><b><font size="6">Course Details</font></b><p>
+						 
+						 <table >
+						 <tr>
+						 <td>Category</td>
+						 <td>Timing </td>
+						 <td>Age Group</td>
+						 <td>Course Fees</td>
+						 </tr>
+						 <tr>
+						 
+						 <td>Week Days(tue,wed,fri)</td>
+						 <td>4.00-6.00pm</td>
+						 <td>6-12
+						    years</td>
+							<td>RS.20,000/=</td>
+						 <tr>
+						 <tr>
+						 <td>Week end Morning</td>
+						 <td>6.00-8.30 am </td>
+						 <td>6-13
+						 years</td>
+						 <td>RS.20,000/-</td>
+						 </tr>
+						 <tr>
+						 <td>Week End Evening</td>
+						 <td>4.00-6.30 am </td>
+						 <td>11-17
+						 years</td>
+						 <td>RS.20,000/-</td>
+						 </tr>
+						 <tr>
+						 <td>Flood Light(wed,thu,sat)</td>
+						 <td>5.30-8.30 am </td>
+						 <td>10-21
+						 years</td>
+						 <td>RS.4,000/-</td>
+						 </tr>
+						 
+						 
+						 
+						 
+						 </table>
+						 
+						 
+						 <p style="color:white;"><font size="6"><b>Apply For  Club</b></font></p>
+          
+                    <form action="prerna.php> method="post" onsubmit="return(validate())">
+					<fieldset>
+					<p style="color:green"><b><font size="4">REGISTRATION FORM:</font></b></p>
+					<p style="color:White;background-colo:green;"><b>Please complete all sections:<br>
+					                       We will use your information to ensure that you are kept informed about club fixtures and events.<b></p>
+					
+					<p style="color:red"><b>Private & Confidential - personal</b> </p>
+                <p style="color:white;"> Name: </p><br>
+               <input type="text" name="firstname"  placeholder="firstname" id="1"><br>
+			   <input type="text" name="lastname"  placeholder="lastname" id="11"></br>
+			   <p style="color:white;"><b>Gender</b></p>
+			   <p style="color:white;">Male</p><br>
+            <input type="radio" value="male" name="gender" >
+			<p style="color:white;">Female</p><br>
+           <input type="radio" value="female" name="gender" ><br>
+		   <br>
+		   
+		   
+		   <select id="6"style="background-color:green;">
+<p style="color:white;">Options: </p><br>
+<option value="-1">Select Age</option>
+<option value="6-13" >6-13</option>
+<option value="13-17">13-17</option>
+<option value="17-21">17-21</option>
+
+</select>
+<br>
+<br>
+<br>
+	   <select id="7" style="background-color:green;">
+<p>options: </p><br>
+<option value="-1">Select Category</option>
+<option value="weekdays" >Weekdays</option>
+<option value="weekend morning">Weekend Morning"</option>
+<option value="weekend evening">Weekend Evening</option>
+<option value="flood light">flood light</option>
+
+
+
+</select>
+<p style="color:white;"><b>Phone Number:</b></p>
+		   <input type="text" id="3" ><br>
+		   <p style="color:white;"><b>Address:</b></p>
+		   <input type="text" name="address" placeholder="lovely proffesional univesity G.T. road" id="4"></br>
+		   <p style="color:white;"> <b>City:</b></p>
+		   <input type="text" name="City"  placeholder="jaipur" id="5"></br>
+		   <p <p style="color:white;">Email </p><br>
+		   <input type="text" name="address"  placeholder="bhatraprerna061@gmail.com" id="2"></br>
+		   
+<input type="reset"  value="click to reset" onclick="fr()" style="background-color:green;border:none;color:white;border-radius:70%;text-align:center;margin:4px 2px;padding:20px"><br><br>
+<input type="submit" value="click to submit" style="background-color:green;border:none;color:white;border-radius:70%;text-align:center;margin:4px 2px;padding:20px"><br><br><br><br>
+
+		   
+		   </fieldset>
+                    </form>
+<p style="color:white"> Gallery </p>
+<button type="button" onclick="document.getElementById('demo').src='sachin.jpg'" style="background-color:green;border:none;color:white;border-radius:70%;text-align:center;margin:4px 2px;padding:20px">Previous</button>
+<br><br>
+
+<img src="sachin.jpg" id="demo"></img><br><br>
+<button type="button" onclick="document.getElementById('demo').src='sachin2.jpg'" style="background-color:green;border:none;color:white;border-radius:70%;text-align:center;margin:4px 2px;padding:20px">Next</button><br><br>
+<br><br>
+                </div>
+<center>
+<script>
+function validate()
+{
+if(document.getElementById("1").value=="")
+{
+alert("please provide your  first name!");
+document.getElementById("1").focus();
+return false;
+}
+if(document.getElementById("11").value=="")
+{
+alert("please provide your  last  name!");
+document.getElementById("11").focus();
+return false;
+}
+a=document.getElementById("3").value
+if(a==""||a.length!=10||isNaN(a))
+{
+alert("provide valid number");
+document.getElementById("3").focus();
+return false;
+}
+if(document.getElementById("4").value=="")
+{
+alert("please provide your  address!");
+document.getElementById("4").focus();
+return false;
+}
+if(document.getElementById("5").value=="")
+{
+alert("please provide your  city!");
+document.getElementById("5").focus();
+return false;
+}
+x=document.getElementById("2").value;
+var atpos=x.indexOf("@");
+var dotpos=x.indexOf(".");
+var dotposLast=x.lastIndexOf(".");
+if(x==""||atpos<1||dotpos<=atpos+2||dotposLast+2>=x.length)
+{
+alert("provide correct email id");
+document.getElementById("2").focus();
+return false;
+}
+
+
+
+
+
+
+return(true);
+}
+function fp()
+{
+alert(" WebPage Is Loading");
+}
+function fr()
+{
+alert(" your data has been  reset");
+}
+
+</script>
+
+</body>
+</html>
+
+
